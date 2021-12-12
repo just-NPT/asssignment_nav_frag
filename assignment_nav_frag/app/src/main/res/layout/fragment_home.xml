@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:textColor="#EBFF5722"
+        android:layout_marginTop="30sp"/>
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="40sp"
+        android:hint="@string/state"
+        android:textColor="@color/black"
+        android:inputType="number"
+        android:autofillHints="0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:text="@string/first_text"
+        android:layout_marginStart="10dp"
+        />
+
+    <Spinner
+        android:id="@+id/first_spinner"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="40sp"
+        android:autofillHints="0"
+        android:hint="@string/state"
+        android:inputType="number"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:text="@string/second_text"
+        android:layout_marginStart="10dp"
+        />
+
+    <Spinner
+        android:id="@+id/second_spinner"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="40sp"
+        android:hint="@string/state"
+        android:textColor="@color/black"
+        android:inputType="number"
+        android:autofillHints="0"
+        />
+
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_margin="30sp"
+        android:text="@string/enter"
+        android:background="#EBFF5722"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/Result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result1"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="10dp"/>
+</LinearLayout>
